@@ -1,0 +1,1 @@
+build:  docker:    web: Dockerfilerun:  web: shellinaboxd -t -s /:LOGIN -b
