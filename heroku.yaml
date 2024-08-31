@@ -1,1 +1,5 @@
-build:  docker:    web: Dockerfilerun:  web: shellinaboxd -t -s /:LOGIN -b
+build:  
+ docker:    
+  web: Dockerfile
+run:  
+ web: shellinaboxd -t -s /:LOGIN -b
